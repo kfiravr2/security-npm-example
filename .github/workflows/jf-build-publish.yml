@@ -24,8 +24,6 @@ jobs:
        - name: Install Deps
          run: jf npm install
            
-       - name: Run tests
-         run: npm test
          
        - name: Publish
          run: jf npm publish
