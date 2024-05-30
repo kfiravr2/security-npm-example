@@ -13,7 +13,7 @@ jobs:
        - name: Setup Jfrog CLI OIDC
          uses: jfrog/setup-jfrog-cli@v3
          env:
-          JF_URL: ${{ secrets.JF_URL }}
+          JF_URL: https://myjfrogtutorial.jfrog.io
          with:
           oidc-provider-name: github-jfrog 
           oidc-audience: my-aud
